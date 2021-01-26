@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+      body{
+        padding:0px
+      }
+      #row{
+        margin:0;
+      }
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <form action="/verificar" method="post" >
+        <div class="row" id=row>
+          <div class=".col-sm-"
+            <label for="cep">Digite o CEP para saber o endereço:</label><br>
+            <input type="number" id="cep" name="cep" class="form-control"><br>
+            <button type="submit" class="btn btn-outline-dark"> Verificar </button>
+          </div>
+        </div>
+      </form>
+      <br>
+      {% if inexistente == True %}
+      <div class="alert alert-danger" role="alert">
+        {{erro}}
+      </div>
+      {% else %}
+        <li class="list-group-item">Rua: {{rua}}</li>
+        <li class="list-group-item">Bairro: {{bairro}}</li>
+        <li class="list-group-item">Cidade: {{cidade}}</li>
+        <li class="list-group-item">Estado: {{estado}}</li>
+        <li class="list-group-item">DDD: {{ddd}}</li>
+      {% endif %}
+    </div>
+  </body>
+</html>
