@@ -3,10 +3,13 @@
 <h1 align="center">
     <img alt="Viacep" title="#Viacep" src="./img/banner.png" />
 </h1>
+
 ### Pré-requisitos
 Antes de começar, você vai precisar ter instalado em sua máquina a
 seguinte ferramenta:
-[Python](https://www.python.org/downloads/). Não se esqueça atualizar a variável de ambiente na instalação do python.
+[Python](https://www.python.org/downloads/). 
+
+Não se esqueça atualizar a variável de ambiente na instalação do python.
 
 <img alt="Viacep" title="#Viacep" src="./img/python.png" />
 
