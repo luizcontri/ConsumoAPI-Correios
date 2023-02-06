@@ -1,5 +1,5 @@
 # ':e-mail:'  ConsumoAPI-Correios com Flask 
-## Neste projeto eu utilizo a api https://viacep.com.br/ para consultar o endereço pelo CEP.
+## Neste projeto eu utilizo a api https://viacep.com.br/ e crio uma aplicação onde ao informar o CEP é retornado o endereço.
 <h1 align="center">
     <img alt="Viacep" title="#Viacep" src="./img/banner.png" />
 </h1>
