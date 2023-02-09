@@ -19,7 +19,7 @@ Além disto é bom ter um editor para trabalhar com o código como [Atom](https:
 
 ```bash
 # Clone este repositório
-$ git clone <https://github.com/contri-dev/ConsumoAPI-Correios.git>
+$ git clone <https://github.com/luizcontri/ConsumoAPI-Correios.git>
 
 # Acesse a pasta do projeto no terminal/cmd
 $ cd ConsumoAPI-Correios
